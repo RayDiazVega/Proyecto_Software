@@ -2,7 +2,7 @@ package asignatura
 
 import grails.rest.*
 
-//@Resource(uri='/asignatura')
+@Resource(uri='/asignatura')
 class Asignatura {
 
     String name
