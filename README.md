@@ -11,4 +11,6 @@ Para poder replicar el proyecto se deben seguir los siguientes pasos:
 
 5) Descargamos, extraemos y colocamos la carpeta del proyecto en la ruta donde se encuentran los proyectos de IntelliJ IDEA.
 
-6) Abrimos nuestro proyecto 
+6) Abrimos nuestro proyecto, tomara un momento mientras se sincroniza y se descargan las dependencias.
+
+7) Finalmente ejecutamos nuestro proyecto, cuando termine la compilacion se abrira nuestro navegador con la ruta http://localhost:8080, para visualizar el resultado debemos agregar a la ruta el nombre del proyecto mas "show" y el indicador, por ejemplo en nuestro caso seria http://localhost:8080/asignatura/show/1 y se mostrara {"id":1,"room":"A3-401","startHour":"10","finalHour":"12","ncr":"1253","name":"Liderasgo y emprendimiento"}
